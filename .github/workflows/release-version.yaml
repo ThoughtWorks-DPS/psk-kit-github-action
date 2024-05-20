@@ -36,7 +36,7 @@ jobs:
           SLACK_BOT_TOKEN: op://empc-lab/svc-slack/gha-slack-bot-token
 
       - name: Post new release message
-        uses: ThoughtWorks-DPS/common-actions/slack-bot@b7cf3979fa5745551c5a62afa5e8e07f75ffa687    # v0.1.0
+        uses: ThoughtWorks-DPS/common-actions/slack-bot@3529a43cbec58554099365ead59f01f9376de48d    # v0.2.1
         with:
           channel: lab-events
           message: New release ThoughtWorks/...
